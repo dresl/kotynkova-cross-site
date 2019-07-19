@@ -1,0 +1,86 @@
+
+body {
+  background-color: #000;
+}
+
+.container {
+  background-color: rgba(0,0,0,0.5)
+}
+
+.col-md-6,
+.col-md-12 {
+  padding: 0;
+}
+
+a.contents {
+  display: contents;
+}
+
+.header-title {
+  color: #fff;
+  position: absolute;
+  z-index: 5;
+  top: 21px;
+  left: 26px;
+}
+
+.intro {
+  background-image: url(./Intro_Logo_Koty.png), url(./Intro_BG_02.jpg);
+  height: 80vh;
+  background-size: 61vh, cover;
+  background-repeat: no-repeat;
+  background-position: 50% 23%, center;
+}
+
+.info-text {
+  color: #fff;
+  top: 63%;
+  position: absolute;
+  width: 98vw;
+}
+
+.scroll-down {
+  width: 50px;
+  position: absolute;
+  top: 77%;
+  left: 48.7%;
+}
+
+.screen-foto {
+  width: 100%;
+  opacity: 0.4;
+}
+
+.web-title {
+  display: block;
+  height: 177px;
+  padding: 76px;
+  text-align: center;
+  background-image: none;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.web-title .link {
+  padding: 10px 24px;
+  border: 1px solid #ccc;
+  color: #ccc;
+  text-decoration: none;
+}
+
+.wrapper-site:hover .web-title {
+  background-image: url(Intro_Btn_Active.png);
+}
+.wrapper-site:hover .link {
+  border: none;
+}
+.wrapper-site:hover .screen-foto {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 550px) {
+  .intro {
+    background-size: 90vw, cover;
+  }
+}
